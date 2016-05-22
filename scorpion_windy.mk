@@ -17,14 +17,27 @@ BOARD_HAVE_RADIO := false
 # Inherit the scorpion-common definitions
 $(call inherit-product, device/sony/scorpion_windy/scorpion-common.mk)
 
-# Audio
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/audio/audio_policy.conf:system/etc/audio_policy.conf \
-    $(LOCAL_PATH)/audio/mixer_paths.xml:system/etc/mixer_paths.xml
+# Device Init
+PRODUCT_PACKAGES += \
+    init.recovery.scorpion_windy \
+    init.scorpion_windy \
+    ueventd.scorpion_windy
 
-# Wifi
+# Lights
+PRODUCT_PACKAGES += \
+    lights.scorpion_windy
+
+# Simple PowerHAL
+PRODUCT_PACKAGES += \
+    power.scorpion_windy
+
+# NFC config
+PRODUCT_PACKAGES += \
+    nfc_nci.scorpion_windy
+
+# Hardware
 PRODUCT_COPY_FILES += \
-   $(LOCAL_PATH)/bcmdhd.cal:system/etc/wifi/bcmdhd.cal
+    frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml
 
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/scorpion_windy/scorpion_windy-vendor.mk)

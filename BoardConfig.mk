@@ -17,3 +17,6 @@ include device/sony/scorpion_windy/BoardConfigCommon.mk
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SGP611,SGP612,scorpion_windy
+
+# Boot cmd
+BOARD_KERNEL_CMDLINE  += androidboot.hardware=scorpion_windy

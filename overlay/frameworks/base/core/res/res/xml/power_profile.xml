@@ -15,11 +15,11 @@
     <item name="radio.scanning">10.63</item>
     <item name="gps.on">47.26</item>
     <array name="radio.on">
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
-        <value>0</value>
+        <value>3.55</value>
+        <value>3.68</value>
+        <value>3.76</value>
+        <value>3.85</value>
+        <value>3.97</value>
     </array>
     <array name="cpu.speeds">
         <value>300000</value>
