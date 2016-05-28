@@ -31,10 +31,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     power.scorpion_windy
 
-# NFC config
-PRODUCT_PACKAGES += \
-    nfc_nci.scorpion_windy
-
 # Hardware
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml
