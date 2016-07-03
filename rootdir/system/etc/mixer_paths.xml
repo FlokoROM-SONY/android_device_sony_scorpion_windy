@@ -170,6 +170,7 @@
     <ctl name="CLASS_H_DSM MUX" value="ZERO" />
     <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia4" value="0" />
     <ctl name="AFE_PCM_RX Audio Mixer MultiMedia4" value="0" />
+    <ctl name="AFE_PCM_RX Audio Mixer MultiMedia3" value="0" />
     <ctl name="INTERNAL_FM_RX Audio Mixer MultiMedia4" value="0" />
     <ctl name="HDMI Mixer MultiMedia4" value="0" />
     <ctl name="INTERNAL_BT_SCO_RX Audio Mixer MultiMedia4" value="0" />
@@ -810,6 +811,210 @@
         <ctl name="SLIM_0_RX Format" value="S24_LE" />
         <ctl name="SLIM_0_RX SampleRate" value="KHZ_96" />
         <path name="low-latency-playback" />
+    </path>
+
+    <path name="audio-ull-playback">
+        <ctl name="SLIMBUS_0_RX Audio Mixer MultiMedia5" value="1" />
+    </path>
+
+    <path name="audio-ull-playback speaker">
+        <ctl name="QUAT_MI2S_RX Audio Mixer MultiMedia5" value="1" />
+    </path>
+
+    <path name="audio-ull-playbackk handset">
+        <path name="audio-ull-playback speaker" />
+    </path>
+
+    <path name="audio-ull-playback speaker-and-headphones">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-and-headphones-hi-res">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-anc-nc-headphone">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-anc-nce-headphone">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-anc-nc-off-headphone">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-anc-nce-off-headphone">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-ring-anc-nc-headphone">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-ring-anc-nce-headphone">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-ring-anc-nc-off-headphone">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-ring-anc-nce-off-headphone">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-anc-nc-headphone-hi-res">
+        <path name="audio-ull-playback" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-anc-nce-headphone-hi-res">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-anc-nc-off-headphone-hi-res">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-anc-nce-off-headphone-hi-res">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-ring-anc-nc-headphone-hi-res">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-ring-anc-nce-headphone-hi-res">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-ring-anc-nc-off-headphone-hi-res">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback speaker-ring-anc-nce-off-headphone-hi-res">
+        <path name="audio-ull-playback speaker" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback hdmi">
+        <ctl name="HDMI Mixer MultiMedia3" value="1" />
+    </path>
+
+    <path name="audio-ull-playback bt-sco">
+        <ctl name="SEC_AUX_PCM_RX Audio Mixer MultiMedia3" value="1" />
+    </path>
+
+    <path name="audio-ull-playback bt-sco-wb">
+        <path name="audio-ull-playback bt-sco" />
+    </path>
+
+    <path name="audio-ull-playback speaker-and-hdmi">
+        <path name="audio-ull-playback hdmi" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback afe-proxy">
+        <ctl name="AFE_PCM_RX Audio Mixer MultiMedia3" value="1" />
+    </path>
+
+    <path name="audio-ull-playback usb-headphones">
+        <path name="audio-ull-playback afe-proxy" />
+    </path>
+
+    <path name="audio-ull-playback speaker-and-usb-headphones">
+        <path name="audio-ull-playback usb-headphones" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback transmission-fm">
+        <ctl name="INTERNAL_FM_RX Audio Mixer MultiMedia3" value="1" />
+    </path>
+
+    <path name="audio-ull-playback speaker-and-transmission-fm">
+        <path name="audio-ull-playback transmission-fm" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback incall-music">
+    </path>
+
+    <path name="audio-ull-playback incall-music-bt">
+        <path name="audio-ull-playback incall-music" />
+    </path>
+
+    <path name="audio-ull-playback incall-music-all-rx-mute">
+        <path name="audio-ull-playback incall-music" />
+    </path>
+
+    <path name="audio-ull-playback headphones-hi-res">
+        <ctl name="SLIM_0_RX Format" value="S24_LE" />
+        <ctl name="SLIM_0_RX SampleRate" value="KHZ_96" />
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback anc-nc-headphone-hi-res">
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback anc-nce-headphone-hi-res">
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback anc-nc-off-headphone-hi-res">
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback anc-nce-off-headphone-hi-res">
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback anc-nc-headphone-regulation">
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback anc-nc-headphone-hi-res-regulation">
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback anc-nce-headphone-regulation">
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback anc-nce-headphone-hi-res-regulation">
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback anc-nc-off-headphone-hi-res-regulation">
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback anc-nce-off-headphone-hi-res-regulation">
+        <path name="audio-ull-playback" />
+    </path>
+
+    <path name="audio-ull-playback headphones-hi-res-regulation">
+        <ctl name="SLIM_0_RX Format" value="S24_LE" />
+        <ctl name="SLIM_0_RX SampleRate" value="KHZ_96" />
+        <path name="audio-ull-playback" />
     </path>
 
     <path name="multi-channel-playback hdmi">
