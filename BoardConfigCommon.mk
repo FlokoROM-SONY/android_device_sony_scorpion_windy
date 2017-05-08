@@ -28,5 +28,8 @@ BOARD_USERDATAIMAGE_PARTITION_SIZE := 12253589504 # 12253605888 - 16384
 
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
 
+# BootAnimation
+TARGET_BOOTANIMATION := device/sony/scorpion_windy/bootanimation.zip
+
 # TWRP
 include device/sony/scorpion_windy/twrp.mk
