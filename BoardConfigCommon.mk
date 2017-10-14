@@ -17,7 +17,7 @@ include device/sony/shinano-common/BoardConfigCommon.mk
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/scorpion_windy/include
 
-BOARD_HARDWARE_CLASS += device/sony/scorpion_windy/cmhw
+BOARD_HARDWARE_CLASS += device/sony/scorpion_windy/lineagehw
 
 # For two-stage boot configuration
 TARGET_RECOVERY_DEVICE_DIRS := device/sony/scorpion_windy
