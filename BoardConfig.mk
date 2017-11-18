@@ -18,8 +18,5 @@ include device/sony/scorpion_windy/BoardConfigCommon.mk
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SGP611,SGP612,scorpion_windy
 
-# Boot cmd
-BOARD_KERNEL_CMDLINE  += androidboot.hardware=scorpion_windy
-
 # Kernel properties
 TARGET_KERNEL_CONFIG := lineageos_shinano_scorpion_windy_defconfig
