@@ -19,9 +19,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Common scorpion Resources
 $(call inherit-product, device/sony/scorpion_windy/full_scorpion-common.mk)
 
-DEVICE_PACKAGE_OVERLAYS += \
-     device/sony/scorpion_windy/overlay
-
 #Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base.mk)
 
