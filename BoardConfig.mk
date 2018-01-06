@@ -15,6 +15,9 @@
 # inherit from the common scorpion definitions
 include device/sony/scorpion_windy/BoardConfigCommon.mk
 
+# Build.prop
+TARGET_SYSTEM_PROP += device/sony/scorpion_windy/system.prop
+
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SGP611,SGP612,scorpion_windy
 
