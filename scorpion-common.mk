@@ -22,10 +22,10 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.autofocus.xml:system/etc/permissions/android.hardware.camera.autofocus.xml \
     frameworks/native/data/etc/tablet_core_hardware.xml:system/etc/permissions/tablet_core_hardware.xml \
     $(LOCAL_PATH)/rootdir/system/etc/wifi/bcmdhd.cal:system/etc/wifi/bcmdhd.cal \
-    $(LOCAL_PATH)/rootdir/system/etc/thermanager.xml:system/etc/thermanager.xml \
     $(LOCAL_PATH)/rootdir/system/etc/libnfc-brcm.conf:system/etc/libnfc-brcm.conf \
     $(LOCAL_PATH)/rootdir/system/etc/libnfc-nxp.conf:system/etc/libnfc-nxp.conf \
     $(LOCAL_PATH)/rootdir/system/etc/sensor_def_qcomdev.conf:system/etc/sensor_def_qcomdev.conf \
+    $(LOCAL_PATH)/rootdir/system/vendor/etc/thermanager.xml:system/vendor/etc/thermanager.xml \
     $(LOCAL_PATH)/rootdir/system/vendor/etc/mixer_paths.xml:system/vendor/etc/mixer_paths.xml \
     $(LOCAL_PATH)/rootdir/system/vendor/etc/audio_policy_configuration.xml:system/vendor/etc/audio_policy_configuration.xml \
     $(LOCAL_PATH)/rootdir/system/vendor/etc/audio_policy_volumes_drc.xml:system/vendor/etc/audio_policy_volumes_drc.xml \
