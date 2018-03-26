@@ -23,3 +23,4 @@ TARGET_OTA_ASSERT_DEVICE := SGP611,SGP612,scorpion_windy
 
 # Kernel properties
 TARGET_KERNEL_CONFIG := lineageos_shinano_scorpion_windy_defconfig
+#TARGET_KERNEL_CONFIG := multirom_shinano_scorpion_windy_defconfig
