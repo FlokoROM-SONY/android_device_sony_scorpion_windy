@@ -32,4 +32,4 @@ PRODUCT_PACKAGES += \
     power.scorpion_windy
 
 # Include non-opensource parts
-$(call inherit-product, vendor/sony/scorpion_windy/scorpion_windy-vendor.mk)
+#$(call inherit-product, vendor/sony/scorpion_windy/scorpion_windy-vendor.mk)

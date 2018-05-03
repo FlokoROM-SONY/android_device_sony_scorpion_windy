@@ -1,1 +1,1 @@
-add_lunch_combo lineage_scorpion_windy-eng
+add_lunch_combo omni_scorpion_windy-eng
