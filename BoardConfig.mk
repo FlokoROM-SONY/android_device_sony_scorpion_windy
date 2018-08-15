@@ -16,7 +16,7 @@
 include device/sony/scorpion_windy/BoardConfigCommon.mk
 
 # Build.prop
-TARGET_SYSTEM_PROP += device/sony/scorpion_windy/system.prop
+TARGET_SYSTEM_PROP += device/sony/scorpion_windy/vendor.prop
 
 # Assert
 TARGET_OTA_ASSERT_DEVICE := SGP611,SGP612,scorpion_windy
