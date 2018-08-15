@@ -37,3 +37,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Include non-opensource parts
 $(call inherit-product, vendor/sony/scorpion_windy/scorpion_windy-vendor.mk)
+
+# Include opengapps parts
+$(call inherit-product, vendor/google/products/gms.mk)
