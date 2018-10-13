@@ -1,1 +1,4 @@
+add_lunch_combo aicp_scorpion_windy-userdebug
+add_lunch_combo aicp_scorpion_windy-eng
+add_lunch_combo lineage_scorpion_windy-userdebug
 add_lunch_combo lineage_scorpion_windy-eng
