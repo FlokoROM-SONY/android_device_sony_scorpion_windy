@@ -1,2 +1,2 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/full_scorpion_windy.mk
+    $(LOCAL_DIR)/aicp_scorpion_windy.mk
