@@ -10,6 +10,9 @@ $(call inherit-product, vendor/aicp/config/common_full_tablet_wifionly.mk)
 # Inherit AOSP scorpion device parts
 $(call inherit-product, device/sony/scorpion_windy/full_scorpion_windy.mk)
 
+# Inherit shipping API level
+$(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_m.mk)
+
 PRODUCT_DEVICE := scorpion_windy
 PRODUCT_NAME := aicp_scorpion_windy
 PRODUCT_BRAND := Sony
