@@ -37,7 +37,7 @@ USE_CUSTOM_AUDIO_POLICY := 1
 USE_XML_AUDIO_POLICY_CONF := 1
 
 # BootAnimation
-TARGET_BOOTANIMATION := device/sony/scorpion_windy/bootanimation.zip
+#TARGET_BOOTANIMATION := device/sony/scorpion_windy/bootanimation.zip
 
 # TWRP
 include device/sony/scorpion_windy/twrp.mk
