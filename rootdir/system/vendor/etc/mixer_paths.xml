@@ -838,7 +838,7 @@
     </path>
 
     <path name="audio-ull-playback bt-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="Internal BTSCO SampleRate" value="rate_16000" />
         <path name="audio-ull-playback bt-sco" />
     </path>
 
@@ -1037,7 +1037,7 @@
     </path>
 
     <path name="compress-offload-playback2 bt-sco-wb">
-        <ctl name="AUX PCM SampleRate" value="16000" />
+        <ctl name="AUX PCM SampleRate" value="rate_16000" />
         <path name="compress-offload-playback2 bt-sco" />
     </path>
 
@@ -1655,7 +1655,7 @@
     </path>
 
     <path name="vowlan-call bt-sco-wb">
-        <ctl name="Internal BTSCO SampleRate" value="16000" />
+        <ctl name="Internal BTSCO SampleRate" value="rate_16000" />
         <path name="vowlan-call bt-sco" />
     </path>
 
