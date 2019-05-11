@@ -145,6 +145,8 @@
                 </devicePort>
                 <devicePort tagName="Telephony Tx" type="AUDIO_DEVICE_OUT_TELEPHONY_TX" role="sink">
                 </devicePort>
+                <devicePort tagName="HDMI" type="AUDIO_DEVICE_OUT_AUX_DIGITAL" role="sink">
+                </devicePort>
 
                 <devicePort tagName="Built-In Mic" type="AUDIO_DEVICE_IN_BUILTIN_MIC" role="source">
                 </devicePort>
@@ -176,6 +178,8 @@
                        sources="primary output,raw,deep_buffer"/>
                 <route type="mix" sink="Telephony Tx"
                        sources="voice_tx"/>
+                <route type="mix" sink="HDMI"
+                       sources="primary output,raw,deep_buffer,direct_pcm"/>
                 <route type="mix" sink="primary input"
                        sources="Built-In Mic,Built-In Back Mic,Wired Headset Mic,BT SCO Headset Mic,FM Tuner In"/>
                 <route type="mix" sink="voice_rx"
