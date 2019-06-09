@@ -257,7 +257,7 @@
 	</configuration>
 
 	<!-- backlight -->
-	<configuration sensor="temp-emmc">
+	<!-- <configuration sensor="temp-emmc">
 		<threshold>
 			<mitigation name="backlight" level="off" />
 		</threshold>
@@ -273,7 +273,7 @@
 		<threshold trigger="464" clear="452">
 			<mitigation name="backlight" level="4" />
 		</threshold>
-	</configuration>
+	</configuration>-->
 
 	<!-- CPU -->
 	<configuration sensor="temp-cpu">
