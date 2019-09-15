@@ -15,12 +15,16 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_scorpion_windy.mk \
+    $(LOCAL_DIR)/aicp_scorpion_windy.mk \
     $(LOCAL_DIR)/lineage_scorpion_windy.mk
 
 COMMON_LUNCH_CHOICES := \
     aosp_scorpion_windy-user \
     aosp_scorpion_windy-userdebug \
     aosp_scorpion_windy-eng \
+    aicp_scorpion_windy-user \
+    aicp_scorpion_windy-userdebug \
+    aicp_scorpion_windy-eng \
     lineage_scorpion_windy-user \
     lineage_scorpion_windy-userdebug \
     lineage_scorpion_windy-eng
