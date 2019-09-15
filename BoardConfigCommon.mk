@@ -32,10 +32,6 @@ BOARD_SEPOLICY_DIRS += device/sony/scorpion_windy/sepolicy
 # DT2W
 TARGET_TAP_TO_WAKE_NODE := "/sys/devices/virtual/input/clearpad/wakeup_gesture"
 
-# Audio
-USE_CUSTOM_AUDIO_POLICY := 1
-USE_XML_AUDIO_POLICY_CONF := 1
-
 # BootAnimation
 #TARGET_BOOTANIMATION := device/sony/scorpion_windy/bootanimation.zip
 
